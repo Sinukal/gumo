@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GuMo Morgenbericht – Datenschutz / Privacy</title>
+<style>
+  :root { --bg: #ffffff; --text: #1d1d1f; --muted: #5f5f66; --accent: #e85d04; --line: #e4e4e8; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #111114; --text: #f2f2f4; --muted: #a6a6ae; --accent: #ff8a3d; --line: #2a2a30; } }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 8px; }
+  header svg { flex: none; }
+  h1 { font-size: 26px; margin: 0; }
+  h2 { font-size: 20px; margin: 36px 0 8px; }
+  p, li { color: var(--text); }
+  .klein { color: var(--muted); font-size: 15px; }
+  nav a { color: var(--accent); text-decoration: none; margin-right: 16px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <svg width="48" height="48" viewBox="0 0 40 40" aria-hidden="true">
+    <circle cx="20" cy="20" r="20" fill="#0c0c10"/>
+    <path d="M11 24 A9 9 0 0 1 29 24 Z" fill="#ffaa00"/>
+    <g stroke="#ffaa00" stroke-width="2.4" stroke-linecap="round"><path d="M9.5 17.5l-3-1.6"/><path d="M15.5 13l-1.2-3.2"/><path d="M24.5 13l1.2-3.2"/><path d="M30.5 17.5l3-1.6"/></g>
+    <path d="M7 25h26" stroke="#ff5500" stroke-width="2.6" stroke-linecap="round"/>
+    <path d="M14 30h12" stroke="#aaaaaa" stroke-width="1.8" stroke-linecap="round"/>
+  </svg>
+  <h1>GuMo Morgenbericht</h1>
+</header>
+<nav><a href="#de">Deutsch</a><a href="#en">English</a></nav>
+
+<section id="de">
+<h2>Datenschutzhinweis</h2>
+<p class="klein">Stand: Oktober 2026</p>
+<p><strong>Anbieter:</strong> bergweg consulting, Paul Maier, Nassauische Str. 2, 57299 Burbach, <a href="mailto:paul@bergweg-consulting.de">paul@bergweg-consulting.de</a></p>
+
+<h2>Welche Daten GuMo verwendet</h2>
+<p>GuMo Morgenbericht ist ein Widget für Garmin-Uhren. Es liest auf der Uhr folgende Daten, um deinen Morgenbericht anzuzeigen:</p>
+<ul>
+  <li>Body Battery, Stress- und Herzfrequenzverlauf, Sauerstoffsättigung (falls aktiviert)</li>
+  <li>Ruhepuls, Erholungszeit und die eingestellten Schlafenszeiten aus deinem Garmin-Profil</li>
+  <li>die Schrittzahl am Abend (notiert GuMo selbst alle 10 Minuten zwischen 18 und 2 Uhr)</li>
+  <li>den Vornamen, den du in den Einstellungen einträgst</li>
+</ul>
+<p><strong>Diese Daten verlassen deine Uhr nicht.</strong> Sie werden nur auf der Uhr gespeichert (Schrittzahlen höchstens 12 Stunden) und mit dem Löschen von GuMo entfernt. Es gibt keine Konten, keine Werbung und keine Analyse- oder Tracking-Dienste, und der Anbieter erhält keine Daten.</p>
+
+<h2>Wetter</h2>
+<p>Liefert die Uhr kein Garmin-Wetter, ruft GuMo das Wetter über das verbundene Smartphone bei <a href="https://open-meteo.com">Open-Meteo</a> (Open-Meteo GmbH, Schweiz) ab. Dabei wird die letzte bekannte Position der Uhr übertragen, <strong>auf zwei Nachkommastellen gerundet (etwa 1 km)</strong>. Open-Meteo verarbeitet die Anfrage nach seinen eigenen <a href="https://open-meteo.com/en/terms">Bedingungen</a>. Ohne Wetterabfrage funktionieren alle anderen Seiten weiter.</p>
+
+<h2>Deine Rechte</h2>
+<p>Da der Anbieter keine personenbezogenen Daten aus der App erhält oder speichert, liegen bei ihm keine Daten vor, über die Auskunft gegeben oder die gelöscht werden könnten. Bei Fragen: <a href="mailto:paul@bergweg-consulting.de">paul@bergweg-consulting.de</a>.</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<h2>Privacy notice – GuMo Morning Report</h2>
+<p class="klein">As of October 2026</p>
+<p><strong>Provider:</strong> bergweg consulting, Paul Maier, Nassauische Str. 2, 57299 Burbach, Germany, <a href="mailto:paul@bergweg-consulting.de">paul@bergweg-consulting.de</a></p>
+
+<h2>What data GuMo uses</h2>
+<p>GuMo Morning Report is a widget for Garmin watches. To show your morning report it reads on the watch:</p>
+<ul>
+  <li>Body Battery, stress and heart-rate history, blood oxygen (if enabled)</li>
+  <li>resting heart rate, recovery time and the sleep schedule from your Garmin profile</li>
+  <li>your evening step count (recorded by GuMo every 10 minutes between 6 pm and 2 am)</li>
+  <li>the first name you enter in the settings</li>
+</ul>
+<p><strong>This data never leaves your watch.</strong> It is stored only on the watch (step counts for at most 12 hours) and removed when you delete GuMo. No accounts, ads, analytics or tracking; the provider receives no data.</p>
+
+<h2>Weather</h2>
+<p>If the watch has no Garmin weather, GuMo requests the weather from <a href="https://open-meteo.com">Open-Meteo</a> via your phone, sending the watch's last known location <strong>rounded to two decimal places (about 1 km)</strong>. Open-Meteo processes this under its own <a href="https://open-meteo.com/en/terms">terms</a>. All other pages work without it.</p>
+
+<h2>Your rights</h2>
+<p>As the provider receives and stores no personal data from the app, there is no data that could be disclosed or deleted. Questions: <a href="mailto:paul@bergweg-consulting.de">paul@bergweg-consulting.de</a>.</p>
+</section>
+</main>
+</body>
+</html>
